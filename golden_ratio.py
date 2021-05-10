@@ -6,7 +6,6 @@ class GoldenRatioMethod:
     epsilon: Union[int, float] = 0.01
     start_x: Union[int, float] = -3
     end_x: Union[int, float] = 7
-    step_for_x: Union[int, float] = 0.02
 
     def example_function(self, x: Union[int, float]) -> Union[int, float]:
         """Функция-пример"""
