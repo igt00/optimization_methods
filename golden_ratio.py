@@ -12,7 +12,6 @@ class GoldenRatioMethod:
         return x**2 + 2
 
     def method(self) -> None:
-
         """Метод золотого сечения поиска точки минимума функции"""
         phi: float = (3 - sqrt(5)) / 2  # число золотого сечения
 
